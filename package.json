@@ -1,0 +1,43 @@
+{
+  "name": "maxstore-client",
+  "version": "0.31.1",
+  "description": "maxstore API client library. Work on browser and server.",
+  "keywords": [
+    "maxstore",
+    "maxstore api",
+    "maxstore ajax",
+    "maxstore web store",
+    "ecommerce api",
+    "shopping cart api"
+  ],
+  "homepage": "https://maxstore.com",
+  "bugs": "https://github.com/smartmaxdev/maxstore-client/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Maximiliano Ungredda <smartmaxdev@gmail.com>",
+    "url": "https://github.com/smartmaxdev"
+  },
+  "contributors": [
+    {
+      "name": "Maximiliano Ungredda <smartmaxdev@gmail.com>",
+      "url": "https://github.com/smartmaxdev"
+    }
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smartmaxdev/maxstore-client.git"
+  },
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "query-string": "^5.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1"
+  }
+}
