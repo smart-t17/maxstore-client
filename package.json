@@ -1,6 +1,6 @@
 {
   "name": "maxstore-client",
-  "version": "0.31.1",
+  "version": "0.31.2",
   "description": "maxstore API client library. Work on browser and server.",
   "keywords": [
     "maxstore",
